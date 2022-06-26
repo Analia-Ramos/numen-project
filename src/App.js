@@ -1,7 +1,13 @@
+import Head from "./Components/Head";
+import Banner from "./Components/Banner";
+import LatestOffers from "./Components/LatestOffers";
+
 function App() {
   return (
-    <div className="bg-black text-white py-12">
-      <h1>Empezar a codear</h1>
+    <div>
+      <Head/>
+      <Banner/>
+      <LatestOffers/>
     </div>
   );
 }

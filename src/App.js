@@ -3,6 +3,7 @@ import Banner from "./Components/Banner";
 import LatestOffers from "./Components/LatestOffers";
 
 function App() {
+  // Commit de prueba
   return (
     <div>
       <Head/>

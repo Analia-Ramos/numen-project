@@ -1,13 +1,13 @@
-import Head from "./Components/Head";
-import Banner from "./Components/Banner";
-import LatestOffers from "./Components/LatestOffers";
+import OurPartner from "./Components/OurPartner";
+import SurpriseSomeone from "./Components/SurpriseSomeone";
+import Footer from "./Components/Footer";
 
 function App() {
   return (
     <div>
-      <Head/>
-      <Banner/>
-      <LatestOffers/>
+      <OurPartner/>
+      <SurpriseSomeone/>
+      <Footer/>
     </div>
   );
 }

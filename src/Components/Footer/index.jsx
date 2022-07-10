@@ -1,32 +1,15 @@
 import React from "react";
-
-const titulosLista = [
-    {
-        id: 1,
-        titulo: "Categorías",
-        li1:"Zapatillas deportivas", 
-        li2:"Sneakers",
-        li3:"Converse"
-    },
-    {
-        id: 2,
-        titulo: "Preguntas Frecuentes",
-        li1:"¿Cómo comprar?", 
-        li2:"Métodos de pago",
-        li3:"Envíos"
-    },
-    {
-        id: 3,
-        titulo: "Sobre Nosotros",
-        li1:"Contactanos", 
-        li2:"Sucursales",
-        li3:"Nuestra Historia"
-    },
-]
+import ContenedorItem from "./ContenedorItem";
 
 const Footer = () => {
     return (
-    <div className="flex flex-no-wrap justify-center overflow-x-auto">
+        <ContenedorItem />
+    );
+};
+
+export default Footer;
+
+/*<div className="flex flex-no-wrap justify-center">
         <footer className="relative flex items-center pb-8 mt-10 text-sm">
             <div>
                 <img src="/imagenes/logo.png" alt="Logo" className="w-32"></img>
@@ -50,8 +33,4 @@ const Footer = () => {
             </ul>
             ))}
         </footer>
-    </div>
-    );
-};
-
-export default Footer;
+    </div>*/

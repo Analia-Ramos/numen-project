@@ -6,10 +6,7 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: 
-      { 'graffiti-banner': "url('/public/imagenes/graffiti.jpg')" },
-      colors: {
-        'oscuro': '#1F1F1F'
-      },
+      { 'graffiti-banner': "url('/public/images/graffiti.jpg')" },
     },
   },
   plugins: [],

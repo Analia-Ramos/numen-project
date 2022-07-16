@@ -13,7 +13,3 @@ export const sobreNosotros = [
     {nombre:"Sucursales", link: "#"},
     {nombre:"Nuestra Historia", link: "#"},
 ]
-
-/*titulo: "Preguntas Frecuentes",
-titulo: "Sobre Nosotros",
-titulo: "Categorías",*/

@@ -4,7 +4,10 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: 
+      { 'graffiti-banner': "url('/public/images/graffiti.jpg')" },
+    },
   },
   plugins: [],
 }

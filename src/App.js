@@ -3,6 +3,10 @@ import TellAFriend from "./Components/TellAFriend";
 import Head from "./Components/Head";
 import Banner from "./Components/Banner";
 import LatestOffers from "./Components/LatestOffers";
+import OurPartner from "./Components/OurPartner";
+import SurpriseSomeone from "./Components/SurpriseSomeone";
+import Instagram from "./Components/Instagram";
+import Footer from "./Components/Footer";
 
 function App() {
   return (
@@ -12,10 +16,11 @@ function App() {
       <Head/>
       <Banner/>
       <LatestOffers/>
-      
-    </div>
-
-    
+      <OurPartner/>
+      <SurpriseSomeone/>
+      <Instagram/>
+      <Footer/>
+    </div>    
   );
 }
 

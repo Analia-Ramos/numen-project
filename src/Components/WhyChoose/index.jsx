@@ -1,6 +1,6 @@
 import React from "react";
 
-const Head = () => {
+const WhyChoose = () => {
     return (
         <div>
             
@@ -8,4 +8,4 @@ const Head = () => {
     )
 }
 
-export default Head;
+export default WhyChoose;

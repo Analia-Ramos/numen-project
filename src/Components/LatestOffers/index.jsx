@@ -4,7 +4,7 @@ import zapatillas2 from "../assets/imagenes/zapatillas2.jpg";
 import zapatillas3 from "../assets/imagenes/zapatillas3.jpg";
 import zapatillas4 from "../assets/imagenes/zapatillas4.jpg";
 
-const LatestOffers = () => { 
+const LatestOffers = ({cart, setCart}) => { 
 
   return (
     <div className="pt-8 bg-slate-800">
@@ -18,7 +18,7 @@ const LatestOffers = () => {
               </div>
               <p className="text-2xl text-center text-black text-bold">Diseño Flora</p>
               <h3 className="m-px text-lg text-center text-black">$15000</h3>
-              <button className="mx-6 px-1.5 h-10 mt-4 text-lg font-medium bg-yellow-500 rounded-md hover:bg-yellow-300">Comprar</button>
+              <button onClick={() => setCart(cart + 1)} className="mx-6 px-1.5 h-10 mt-4 text-lg font-medium bg-yellow-500 rounded-md hover:bg-yellow-300">Comprar</button>
             </div>
           </div>          
           <div className="bg-white rounded-xl"> 

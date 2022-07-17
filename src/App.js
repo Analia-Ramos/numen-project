@@ -1,3 +1,4 @@
+import { useState } from "react";
 import WhoMakes from "./Components/WhoMakes";
 import TellAFriend from "./Components/TellAFriend";
 import Head from "./Components/Head";
@@ -7,20 +8,24 @@ import OurPartner from "./Components/OurPartner";
 import SurpriseSomeone from "./Components/SurpriseSomeone";
 import Instagram from "./Components/Instagram";
 import Footer from "./Components/Footer";
+// import Quality from "./Components/Quality";
 
 function App() {
+  const [carrito, setCarrito] = useState(0);
+
   return (
     <div>
-      <WhoMakes/>
-      <TellAFriend/>
-      <Head/>
-      <Banner/>
-      <LatestOffers/>
-      <OurPartner/>
-      <SurpriseSomeone/>
-      <Instagram/>
-      <Footer/>
-    </div>    
+      <Head cart={carrito} />
+      {/* <Quality /> */}
+      <WhoMakes />
+      <TellAFriend />
+      <Banner />
+      <LatestOffers cart={carrito} setCart={setCarrito} />
+      <OurPartner />
+      <SurpriseSomeone />
+      <Instagram />
+      <Footer />
+    </div>
   );
 }
 

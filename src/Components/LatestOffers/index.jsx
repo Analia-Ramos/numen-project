@@ -2,9 +2,10 @@ import React from "react";
 
 const LatestOffers = () => {
   return (
-    <div className="bg-green-500 py-12">
+    <div className="py-12 bg-green-500">
       <h2>LatestOffers</h2>
     </div>
+  
   );
 };
 

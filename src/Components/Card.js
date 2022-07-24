@@ -1,16 +1,12 @@
 export default function Card (props) {
 
-    return (
+    return (           
+        <div className='flex flex-col flex-wrap space-x-16 mt-18 pt-14 bg-slate-800 items-centers sm:-mb-12'>
 
-        
-      
-           
-            <div className='flex flex-col flex-wrap mt-18 pt-14 bg-slate-800 items-centers  space-x-16'>
-
-                <h2 className='m-2 mb-10 px-4 text-yellow-300 text-xl font-Cormorant'>{props.title}                  
-                    <p className='m-2 bg-slate-800 w-40 pl-6 mt-10 pl-10 text-yellow-300 text-sm'>{props.paragraph}</p>
-                </h2>
-            </div>
+            <h2 className='px-4 m-2 mb-10 text-xl text-yellow-300 font-Cormorant'>{props.title}                  
+                <p className='w-40 pl-10 m-2 mt-10 text-sm text-yellow-300 bg-slate-800'>{props.paragraph}</p>
+            </h2>
+        </div>
        
     )
 

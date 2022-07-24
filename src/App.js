@@ -8,7 +8,10 @@ import OurPartner from "./Components/OurPartner";
 import SurpriseSomeone from "./Components/SurpriseSomeone";
 import Instagram from "./Components/Instagram";
 import Footer from "./Components/Footer";
-// import Quality from "./Components/Quality";
+import Quality from "./Components/Quality"
+import OurProducts from "./Components/OurProducts/OurProducts";
+import IconsQuality from "./Components/IconsQuality/IconsQuality";
+import WhyChoose from "./Components/WhyChoose";
 
 function App() {
   const [carrito, setCarrito] = useState(0);
@@ -16,14 +19,17 @@ function App() {
   return (
     <div>
       <Head cart={carrito} />
-      {/* <Quality /> */}
-      <WhoMakes />
-      <TellAFriend />
+      
+    
       <Banner />
-      <LatestOffers cart={carrito} setCart={setCarrito} />
+      <LatestOffers cart={carrito} setCart={setCarrito} />      
+      <IconsQuality/>
+      <OurProducts/>
+      <WhoMakes />
       <OurPartner />
       <SurpriseSomeone />
       <Instagram />
+      <TellAFriend />
       <Footer />
     </div>
   );

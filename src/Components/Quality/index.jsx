@@ -1,18 +1,13 @@
 import React from 'react'
 import Card from '../Card'
-// import { GoTelescope, BsFillHouseDoorFill, FaRegHandshake, AiOutlineLike, GiCrownedHeart } from "react-icons/fa";
-
-
 
 
 const Quality = (props) =>  {
+   return (
+  <>
+  
  
-
-
-  return (
-    
-    <div className='bg-slate-800 font-bold flex flex-grow flex-wrap justify-evenly px-auto h-100  justify-center'>
-     
+      <div className='flex flex-wrap flex-grow font-bold h-100 bg-slate-800 justify-evenly px-auto '>     
       {props.contenido.map(atributo=> (
         <Card
            title={atributo.title}
@@ -21,6 +16,8 @@ const Quality = (props) =>  {
        ))}
 
     </div>
+   
+</>
   )
 }
 

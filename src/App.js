@@ -8,8 +8,9 @@ import OurPartner from "./Components/OurPartner";
 import SurpriseSomeone from "./Components/SurpriseSomeone";
 import Instagram from "./Components/Instagram";
 import Footer from "./Components/Footer";
-// import Quality from "./Components/Quality";
 import SlideOver from "./Components/SlideOver/SlideOver";
+import OurProducts from "./Components/OurProducts/OurProducts";
+import IconsQuality from "./Components/IconsQuality/IconsQuality";
 
 function App() {
   const [carrito, setCarrito] = useState(0);
@@ -22,7 +23,8 @@ function App() {
       <Banner />
       <LatestOffers cart={carrito} setCart={setCarrito} />
       <SlideOver isOpen={isOpen} onClose={handleOnClose} /> 
-      {/* <Quality /> */}
+      <IconsQuality/>
+      <OurProducts/>
       <WhoMakes />
       <OurPartner />
       <SurpriseSomeone />

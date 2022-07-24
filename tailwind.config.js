@@ -6,7 +6,13 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: 
-      { 'graffiti-banner': "url('/public/images/graffiti.jpg')" },
+      { 'graffiti-banner': "url('/public/images/graffiti.jpg')",
+        'tellafriend-banner': "url('/public/images/grafittime.jpg')",
+  
+    },
+      
+
+      
     },
   },
   plugins: [],

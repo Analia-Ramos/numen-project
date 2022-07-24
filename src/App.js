@@ -16,14 +16,14 @@ function App() {
   return (
     <div>
       <Head cart={carrito} />
-      {/* <Quality /> */}
-      <WhoMakes />
-      <TellAFriend />
       <Banner />
       <LatestOffers cart={carrito} setCart={setCarrito} />
-      <OurPartner />
+      {/* <Quality /> */}
+      <WhoMakes />
+      <OurPartner />    
       <SurpriseSomeone />
       <Instagram />
+      <TellAFriend />
       <Footer />
     </div>
   );

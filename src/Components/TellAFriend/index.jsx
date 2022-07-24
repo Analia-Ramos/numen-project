@@ -1,39 +1,19 @@
 import React from "react";
-
 const TellAFriend = () => {
-
     return (
-
-        
-        <div className="container mx-auto mt-10 mb-10 py16 bg-slate-800">
-    
-        <img src= "/images/IMG1.jpg" alt=" " className="bg-contain background-image object-cover w-auto lg:w-1/2 h-full lg:h-[432px]"/>
-            
-            <h1 className="container mx-auto mt-10 mb-20 text-2xl font-bold text-center text-yellow-300 strong"> Dile a Tus Amigos </h1>
-            
-            <div className="flex flex-row justify-center">
-                
-
-            <img src= "/images/facebook.png" alt=" "/>
-            <img src= "/images/instagram.jpg" alt=" "/>   
-            <img src= "/images/whatsapp.png" alt=" "/>       
-            <img src= "/images/messenger.png" alt=" "/>
-            <img src= "/images/twitter.png" alt=" "/>
-            <img src= "/images/telegram.png" alt=" "/>
-            
-
+        <div className="flex flex-col items-center my-10 bg-black/75 bg-blend-overlay bg-tellafriend-banner">
+            <h1 className="container mx-auto mt-14 mb-10 text-4xl font-bold text-center text-yellow-300 strong font-['Cormorant']"> Dile a Tus Amigos </h1> 
+            <div className="flex flex-row justify-center mb-14">          
+                <img src= "/images/facebook.svg" alt=" " className="w-12 h-12 mx-3 bg-yellow-300"/>
+                <img src= "/images/instagram.svg" alt=" "className="w-12 h-12 mx-3 bg-yellow-300"/>
+                <img src= "/images/whatsapp.svg" alt=" "className="w-12 h-12 mx-3 bg-yellow-300"/>
+                <img src= "/images/messenger.svg" alt=" "className="w-12 h-12 mx-3 bg-yellow-300"/>
+                <img src= "/images/twitter.svg" alt=" "className="w-12 h-12 mx-3 bg-yellow-300"/>
+                <img src= "/images/telegram.svg" alt=" "className="w-12 h-12 mx-3 bg-yellow-300"/>    
+            </div>
         </div>
-
-        </div>
-
-
     )
-
-
-
-
 }
-
 export default TellAFriend;
 
 

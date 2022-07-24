@@ -1,6 +1,7 @@
 import React from "react";
 
-const Head = ({cart}) => {
+const Head = ({cart, setIsOpen}) => {
+
   return (
     <div className="py-4 bg-slate-800 w-1181 h-130">
       
@@ -24,13 +25,13 @@ const Head = ({cart}) => {
                 <a href="#"><img src="../images/persona.png" className="w-18 h-14 py-2.5 px-5"  alt="contacto"/></a>
                 <img src="../images/carrito.png" className="w-18 h-14 py-2.5 px-5"  alt="tus compras"/>
                 <h2 className="text-yellow-300">{cart}</h2>
+                  <button onClick={() => setIsOpen(true)}> boton </button>
                 <div className="rounded-full">
-               
                 </div>
             </div>
 
           </div>
-         
+        
         </div>
       </nav>
     </div>

@@ -14,7 +14,7 @@ const OurProducts=() => {
        
     ]
     return (
-        <div className="h-full mb-10 bg-slate-800 sm:-mb-20 md:-mb-20 lg:mb-20">                
+        <div className="flex flex-col h-full mb-10 bg-slate-800 sm:-mb-20 md:-mb-20 lg:mb-0">                
             <Quality
                 contenido={atributos}
             />

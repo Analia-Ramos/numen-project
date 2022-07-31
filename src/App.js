@@ -8,21 +8,19 @@ import OurPartner from "./Components/OurPartner";
 import SurpriseSomeone from "./Components/SurpriseSomeone";
 import Instagram from "./Components/Instagram";
 import Footer from "./Components/Footer";
-import SlideOver from "./Components/SlideOver/SlideOver";
+import Quality from "./Components/Quality"
 import OurProducts from "./Components/OurProducts/OurProducts";
 import IconsQuality from "./Components/IconsQuality/IconsQuality";
+import WhyChoose from "./Components/WhyChoose";
 
 function App() {
   const [carrito, setCarrito] = useState(0);
-  const [isOpen, setIsOpen] = useState(false);
-  const handleOnClose = () => {setIsOpen(false);}
 
   return (
     <div>
-      <Head cart={carrito} setIsOpen={setIsOpen} />
+      <Head cart={carrito} />    
       <Banner />
-      <LatestOffers cart={carrito} setCart={setCarrito} />
-      <SlideOver isOpen={isOpen} onClose={handleOnClose} /> 
+      <LatestOffers cart={carrito} setCart={setCarrito} />      
       <IconsQuality/>
       <OurProducts/>
       <WhoMakes />

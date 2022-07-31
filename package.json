@@ -11,6 +11,7 @@
     "react-dom": "^18.2.0",
     "react-responsive-carousel": "^3.2.23",
     "react-scripts": "5.0.1",
+    "sweetalert2": "^11.4.24",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -23,9 +24,6 @@
     "extends": [
       "react-app",
       "react-app/jest"
-     
-
-
     ]
   },
   "browserslist": {

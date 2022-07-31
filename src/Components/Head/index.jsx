@@ -1,5 +1,6 @@
 import React from "react";
 
+
 const Head = ({ cart, setIsOpen }) => {
   return (
     <nav class="flex items-center justify-between flex-wrap bg-slate-800 p-6">

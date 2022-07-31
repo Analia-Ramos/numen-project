@@ -3,18 +3,18 @@ import React from "react";
 
 const Head = ({ cart, setIsOpen }) => {
   return (
-    <nav class="flex items-center justify-between flex-wrap bg-slate-800 p-6">
-      <div class="flex items-center flex-shrink-0 text-yellow-300 mr-6">
+    <nav class="flex items-center justify-between flex-wrap bg-slate-800 p-6 sm:w-auto md:w-auto lg:min-w-min">
+      <div class="flex flex-shrink-0 h-min text-yellow-300 mr-6 mb-10 mt-0 md:mb-0 ">
         <img
           src="../images/NuevoLogo.png"
           className="h-20 ml-4 mr-10 in-w-min"
           alt="logotipo"
         ></img>
       </div>
-      <div class="block lg:hidden">
+      <div class="hidden sm:hidden md:pl-16 md:-mt-10 md:absolute md:ml-60 md:flex md:flex-row  lg:hidden">
         <button
           id="boton"
-          class="flex items-center px-6 py-2 border rounded text-yellow-500 border-yellow-500 hover:text-yellow-300 hover:border-yellow-300"
+          class="flex items-center px-6 py-2 border rounded text-yellow-500 border-yellow-500 hover:text-yellow-300 hover:border-yellow-300 "
         >
           <svg
             class="fill-current h-3 w-3"
@@ -28,51 +28,51 @@ const Head = ({ cart, setIsOpen }) => {
       </div>
       <div
         id="menu"
-        class=" sm:ml-50 lg:flex-grow lg:relative lg:inline-flex lg:items-center lg:w-auto lg:text-center lg:-mt-10"
+        class="relative sm:ml-50 md:items-center md:relative md:ml-96 lg:flex-grow lg:relative lg:items-center lg:-ml-60 lg:text-center lg:mt-10"
       >
-        <div class=" lg:flex-grow lg:mr-60">
+        <div class=" md:flex md:flex-row md:mt-10 md:ml-40 md:pl-60 lg:relative">
           <a
             href="https://campus.academianumen.com/login/index.php"
-            class="sm:hidden md:hidden lg:inline-block lg:mt-0 lg:pl-10 lg:text-xl text-yellow-500 hover:text-yellow-300  mr-4 hover:text-2xl transition-all"
+            class="hidden sm:hidden md:hidden lg:inline-block lg:pl-10 lg:-mt-16 lg:text-xl text-yellow-500 hover:text-yellow-300 hover:text-2xl transition-all"
           >
             Hombres
           </a>
           <a
             href="https://campus.academianumen.com/login/index.php"
-            class="sm:hidden md:hidden lg:inline-block lg:mt-0 lg:pl-10 lg:text-xl text-yellow-500 hover:text-yellow-300  mr-4 hover:text-2xl transition-all"
+            class="hidden sm:hidden md:hidden lg:inline-block lg:pl-10 lg:text-xl text-yellow-500 hover:text-yellow-300  mr-4 hover:text-2xl lg:-mt-16 transition-all"
           >
             Mujeres
           </a>
           <a
             href="https://campus.academianumen.com/login/index.php"
-            class="sm:hidden md:hidden lg:inline-block lg:mt-0 lg:pl-10 lg:text-xl text-yellow-500 hover:text-yellow-300  mr-4 hover:text-2xl transition-all"
+            class="hidden sm:hidden md:hidden lg:inline-block lg:pl-10 lg:text-xl text-yellow-500 hover:text-yellow-300  mr-4 hover:text-2xl lg:-mt-16 transition-all"
           >
             Niños
           </a>
           <a
             href="https://campus.academianumen.com/login/index.php"
-            class="sm:hidden md:hidden lg:inline-block lg:mt-0 lg:pl-10 lg:text-xl text-yellow-500 hover:text-yellow-300  mr-4 hover:text-2xl transition-all"
+            class="hidden sm:hidden md:hidden lg:inline-block lg:pl-10 lg:text-xl text-yellow-500 hover:text-yellow-300  mr-4 hover:text-2xl lg:-mt-16 transition-all"
           >
             Bebés
           </a>
-          <div className="flex flex-row sm:flex-row md:flex lg:relative lg:inline-flex lg:ml-40 lg:-mr-96 lg:items-start">
+          <div className="flex flex-row md:-mt-24 md:-ml-60 md:mx-auto lg:relative lg:ml-40 lg:pl-3 lg:-mr-10 lg:-mt-20 lg:items-start ">
             <a href="#">
               <img
                 src="../images/lupita.png"
-                className="min-w-min h-12 py-2.5 px-3"
+                className="min-w-min h-12 py-2.5 px-3 lg:px-5"
                 alt="busqueda"
               ></img>
             </a>
             <a href="#">
               <img
                 src="../images/persona.png"
-                className="min-w-min h-12 py-2.5 px-5"
+                className="min-w-min h-12 py-2.5 px-5 lg:px-5"
                 alt="contacto"
               />
             </a>
             <img
               src="../images/carrito.png"
-              className="min-w-min h-12 py-2.5 px-5"
+              className="min-w-min h-12 py-2.5 px-5 lg:px-5"
               alt="tus compras"
               onClick={() => setIsOpen(true)}
             />

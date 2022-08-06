@@ -2,11 +2,11 @@ import React from "react";
 
 const Head = ({ cart, setIsOpen }) => {
   return (
-    <nav class="flex items-center justify-between flex-wrap bg-slate-800 p-6 sm:w-auto md:w-auto lg:min-w-min">
+    <nav class="flex items-center justify-between flex-wrap bg-slate-800 p-6 -mb-10 sm:w-auto md:w-auto lg:min-w-min">
       <div class="flex flex-shrink-0 h-min text-yellow-300 mr-6 mb-10 mt-0 md:mb-0 ">
         <img
           src="../images/NuevoLogo.png"
-          className="h-20 ml-4 mr-10 in-w-min"
+          className="h-20 mr-10 -ml-2 in-w-min"
           alt="logotipo"
         ></img>
       </div>
@@ -54,11 +54,11 @@ const Head = ({ cart, setIsOpen }) => {
           >
             Bebés
           </a>
-          <div className="flex flex-row md:-mt-24 md:-ml-60 md:mx-auto lg:relative lg:ml-40 lg:pl-3 lg:-mr-10 lg:-mt-20 lg:items-start ">
+          <div className="absolute flex flex-row -mt-10 -ml-40 md:-mt-24 md:-ml-60 md:mx-auto lg:relative lg:ml-40 lg:pl-3 lg:-mr-10 lg:-mt-20 lg:items-start ">
             <a href="#">
               <img
                 src="../images/lupita.png"
-                className="min-w-min h-12 py-2.5 px-3 lg:px-5"
+                className="min-w-min h-12 py-2.5 px-5 lg:px-5"
                 alt="busqueda"
               ></img>
             </a>

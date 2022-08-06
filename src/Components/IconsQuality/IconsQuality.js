@@ -5,7 +5,7 @@ const IconsQuality=() => {
     return (
     <>
         <div className="justify-center pt-20 text-5xl font-bold text-center text-yellow-300 bg-slate-800 font-Poppins">
-            <h2>¿Por qué elegir nuestros productos?</h2>
+            <h2><span className="text-white">¿Por qué</span> elegir nuestros productos?</h2>
         </div>
         <div className="hidden sm:hidden sm:justify-evenly md:hidden md:justify-evenly lg:flex bg-slate-800 justify-evenly lg:mt-20">
             <img src="../images/telescope.png" className="h-24 w-30"  alt="Telescope"></img>

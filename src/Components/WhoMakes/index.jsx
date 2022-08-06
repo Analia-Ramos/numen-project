@@ -2,9 +2,9 @@ import React from "react";
 const WhoMakes = () => {
     return (
         <div className="flex flex-col items-center">
-        <div className="flex flex-col items-center max-w-6xl mx-4 mt-16 mb-10 lg:flex-row lg:mx-12">                     
+        <div className="flex flex-col items-center max-w-6xl mx-4 mb-10 -mt-36 sm:-mt-10 lg:flex-row lg:mx-12">                     
         <div className= "flex flex-col items-center mr-7 mb-7 lg:items-start">
-            <h1 className="py-8 mt-5 mb-5 text-4xl text-yellow-300 text-bold font-['Cormorant']"> <span className="text-white">Quien Hace</span> Tus Zapatillas? </h1>
+            <h1 className="py-8 mt-5 mb-5 text-4xl text-center text-yellow-300 text-bold font-['Cormorant'] lg:text-left"> <span className="text-white">Quien Hace</span> Tus Zapatillas? </h1>
             <p className= "px-4 mb-5 text-lg text-center lg:text-start lg:px-0"> Nuestras ideas generan que el sector siga creciendo gracias en parte a las ediciones limitadas, al coleccionismo y a la tendencia generada por celebridades e influencers que hacen que los jóvenes se interesen en este producto para intentar ser partícipes de las tendencias mundiales.</p>
            <h2 className="py-5 text-xl text-yellow-300"> Nuestros servicios: </h2>    
                <ul className= "list-disc list-inside">

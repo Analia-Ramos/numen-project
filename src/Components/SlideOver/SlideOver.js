@@ -32,7 +32,9 @@ function SlideOver ({onClose, isOpen, setCart, cart }){
                         <div className="flow-root">
                           <ul className="-my-6 divide-y divide-gray-200">
                             {products.map((product) => (
-                              <li key={product.id} className="flex py-6">
+
+                              <li  key={product.id} className="flex py-6">
+                                <button onClick={() => console.log(product)}> adasd </button>
                                 <div className="flex-shrink-0 w-24 h-24 overflow-hidden border border-gray-200 rounded-md">
                                   <img
                                     src={product.imageSrc}

@@ -4,10 +4,10 @@ import React from "react";
 const Head = ({ cart, setIsOpen }) => {
   return (
     <nav class="flex items-center justify-between flex-wrap bg-slate-800 p-6 -mb-10 sm:w-auto md:w-auto lg:min-w-min">
-      <div class="flex flex-shrink-0 h-min text-yellow-300 mr-6 mb-10 mt-0 md:mb-0 ">
+      <div class="flex flex-shrink-0 h-min text-yellow-300 mr-6 mb-10 mt-0 md:mb-0 lg:mb-10">
         <img
           src="../images/NuevoLogo.png"
-          className="h-20 mr-10 -ml-2 in-w-min"
+          className="h-20 mr-10 -ml-2 min-w-min"
           alt="logotipo"
         ></img>
       </div>
@@ -56,14 +56,16 @@ const Head = ({ cart, setIsOpen }) => {
             Bebés
           </a>
           <div className="absolute flex flex-row -mt-10 -ml-40 md:-mt-24 md:-ml-60 md:mx-auto lg:relative lg:ml-40 lg:pl-3 lg:-mr-10 lg:-mt-20 lg:items-start ">
-            <a href="#">
+            <a href="https://campus.academianumen.com/login/index.php"
+            alt="buscar">
               <img
                 src="../images/lupita.png"
                 className="min-w-min h-12 py-2.5 px-5 lg:px-5"
                 alt="busqueda"
               ></img>
             </a>
-            <a href="#">
+            <a href="https://campus.academianumen.com/login/index.php"
+            alt="nosotros">
               <img
                 src="../images/persona.png"
                 className="min-w-min h-12 py-2.5 px-5 lg:px-5"

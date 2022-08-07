@@ -3,7 +3,7 @@ import React from "react";
 
 const Head = ({ cart, setIsOpen }) => {
   return (
-    <nav class="flex items-center justify-between flex-wrap bg-slate-800 p-6 -mb-10 sm:w-auto md:w-auto lg:min-w-min">
+    <nav class="flex items-center justify-between flex-wrap bg-slate-800 p-6 -mb-10 sm:w-auto md:w-auto lg:w-full xl:w-full 2xl:w-full">
       <div class="flex flex-shrink-0 h-min text-yellow-300 mr-6 mb-10 mt-0 md:mb-0 lg:mb-10">
         <img
           src="../images/NuevoLogo.png"
@@ -28,7 +28,7 @@ const Head = ({ cart, setIsOpen }) => {
       </div>
       <div
         id="menu"
-        class="relative sm:ml-50 md:items-center md:relative md:ml-96 lg:flex-grow lg:relative lg:items-center lg:-ml-60 lg:text-center lg:mt-10"
+        class="relative sm:ml-50 md:items-center md:relative md:ml-96 lg:flex-grow lg:relative lg:items-center lg:-ml-96 lg:mr-58 lg:mt-10"
       >
         <div class=" md:flex md:flex-row md:mt-10 md:ml-40 md:pl-60 lg:relative xl:justify-center 2xl:justify-center">
           <a
@@ -55,7 +55,7 @@ const Head = ({ cart, setIsOpen }) => {
           >
             Bebés
           </a>
-          <div className="absolute flex flex-row -mt-10 -ml-40 md:-mt-24 md:-ml-60 md:mx-auto lg:relative lg:ml-40 lg:pl-3 lg:-mr-10 lg:-mt-20 lg:items-start xl:ml-20 xl:-mr-20 2xl:ml-80 2xl:-mr-38 ">
+          <div className="absolute flex flex-row -mt-10 -ml-40 md:-mt-24 md:-ml-60 md:mx-auto lg:relative lg:ml-40 lg:pl-3 lg:-mr-10 lg:-mt-20 lg:items-start xl:ml-40 xl:-mr-52 2xl:ml-80 2xl:-mr-38 ">
             <a href="https://campus.academianumen.com/login/index.php"
             alt="buscar">
               <img

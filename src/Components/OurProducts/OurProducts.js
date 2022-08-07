@@ -1,5 +1,4 @@
 import React from "react";
-import IconsQuality from "../IconsQuality/IconsQuality"
 import Quality from "../Quality"
 import Card from "../Card";
 
@@ -10,7 +9,7 @@ const OurProducts=() => {
         {title: "Venta al por mayor", paragraph:" Podrás invertir en nuestros productos para formar tu propio negocio!"},
         {title: "Apoyá tu comunidad", paragraph:" Al comprar nuestros productos estás cuidando a tu comunidad, generando empleo, sosteniendo familias y emprendimientos."},
         {title: "Disfrutá la calidad", paragraph:" Solo ofrecemos productos altamente testeados, para que tengas lo mejor."},
-        {title: "Servicios para socios", paragraph: "Como miembro de nuestro club nos aseguraremos de que tengas la mejor experiencia."},
+        {title: "Servicios para socios", paragraph: "Como miembro de nuestro club nos aseguraremos de que tengas la mejor experiencia.",},
        
     ]
     return (

@@ -13,6 +13,7 @@ import IconsQuality from "./Components/IconsQuality/IconsQuality";
 import SlideOver from "./Components/SlideOver/SlideOver";
 
 function App() {
+  const [list, setList] = useState([])
   const [carrito, setCarrito] = useState(0);
   const [isOpen, setIsOpen] = useState(false);
   const handleOnClose = () => {setIsOpen(false);}
@@ -21,8 +22,8 @@ function App() {
     <div>
       <Head cart={carrito} setIsOpen={setIsOpen} />   
       <Banner />
-      <LatestOffers cart={carrito} setCart={setCarrito} />
-      <SlideOver isOpen={isOpen} onClose={handleOnClose} /> 
+      <LatestOffers cart={carrito} setCart={setCarrito} list={list} setList={setList} />
+      <SlideOver isOpen={isOpen} onClose={handleOnClose} list={list} /> 
       <IconsQuality/>
       <OurProducts/>
       <WhoMakes />

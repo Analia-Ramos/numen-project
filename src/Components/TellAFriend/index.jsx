@@ -6,7 +6,7 @@ const TellAFriend = () => {
             <div className="flex flex-row justify-center mb-14">          
                 <img src="/images/face.png" alt=" " className="w-12 h-12 mx-3 min-height" />
                 <img src= "/images/Instagram1.png" alt=" "className="w-12 h-12 mx-3 min-height"/>
-                <img src= "/images/Whatsapp.png" alt=" "className="w-12 h-12 mx-3 min-height"/>
+                <img src= "/images/whatsapp.png" alt=" "className="w-12 h-12 mx-3 min-height"/>
                 <img src= "/images/messenger.png" alt=" "className="w-12 h-12 mx-3 min-height"/>
                 <img src= "/images/twitter.png" alt=" "className="w-12 h-12 mx-3 min-height"/>
                 <img src= "/images/teleg.png" alt=" "className="w-12 h-12 mx-3 min-height"/>    
